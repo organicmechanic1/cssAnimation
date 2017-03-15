@@ -1,0 +1,50 @@
+html {box-sizing: border-box; font-family: "Arial", "Helvitica" , sans-serif;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+#accordianBody {
+	width:400px;
+    list-style: none;
+    margin: 30px auto;
+    border:1px solid rgb(0, 171, 189);
+    
+	
+
+}
+
+.accordian {
+    display: block;
+    height: 40px;
+    width: 400px;
+    line-height: 40px;
+	background-color: rgb(0, 198, 214);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    
+}
+
+a:hover {
+    background-color: rgb(0, 218, 236);
+}
+
+div {
+    height: 0;
+    overflow: auto;
+    transition: 1s height;
+}
+
+p {
+    padding: 15px;
+    font-size: 12px;
+
+}
+
+.open {
+    height: 150px;
+}
